@@ -1,0 +1,11 @@
+#!/bin/sh
+
+if [[ -n "$(pgrep -x "polybar")" ]]; then 
+	killall -q polybar 	
+else
+	polybar bar1 & disown
+fi
+
+
+
+
