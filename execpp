@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Compile
+clang++ -std=c++17 -o temp_exec "$1"
+
+# Run
+./temp_exec
+
+# Delete the executable
+rm temp_exec
