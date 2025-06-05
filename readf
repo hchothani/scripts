@@ -1,4 +1,5 @@
 #!/bin/bash
 
 filepath="$1"
+
 zathura "$filepath" & disown
