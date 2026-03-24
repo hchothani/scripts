@@ -14,7 +14,7 @@ else
 
 fi
 
-feh --bg-scale ~/pictures/wallpaper/redsamurai.webp
+feh --bg-scale ~/pictures/wallpaper/lofi_study_blue.webp
 
 
 # i3-msg move workspace to output 'eDP-1' 
